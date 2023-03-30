@@ -24,7 +24,7 @@ if(isset($_POST['number1']) && isset($_POST['number2']) && isset($_POST['operato
 			$hasil = "Operasi tidak valid";
 			break;
 	}
-	echo "Hasil perhitungan: " . $hasil;
+	echo "Hasil perhitungan:  " . $hasil;
 } else {
 	echo "Tidak ada yang di hitung";
 }
